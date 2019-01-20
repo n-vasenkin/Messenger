@@ -1,0 +1,151 @@
+.container_messenger{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 155px 0 0 70px;
+    height: 100vh;
+    display: flex;
+    z-index: -2;
+}
+
+/* MESSAGE list*/
+#contact_list{
+    width: 33%;
+    min-width: 400px;
+    background: #2b2d3c;
+    overflow-y: scroll;
+    position: relative;
+}
+.new_chat{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    position: relative;
+    bottom: 0;
+}
+#contact_list li{
+    cursor: pointer;
+    border-bottom: 1px solid #9ca1b2;
+}
+#contact_list li:last-child{border-bottom: 0}
+#contact_list li:hover{
+    background: #2e3140;
+}
+.my_contact{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+}
+.contact_div{
+    margin-bottom: 10px;
+}
+.contact_name{
+    color: #ffffff;
+    margin: 0 10px;
+}
+.last_message{
+    white-space: nowrap;
+    color: #9ca1b2;
+}
+.contact_date{
+    color: #2196f3;
+    margin-left: auto;
+}
+
+
+/* CHAT */
+#chat{
+    width: 67%;
+    background: #2f3242;
+    padding: 20px 15px;
+    position: relative;
+}
+.chat_list{ width: 100% }
+.row_message{
+    display: flex;
+    margin-bottom: 20px;
+}
+.user_avatar{
+    width: 40px;
+    margin: 0 10px;
+}
+.message{
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0;
+    background: #404359;
+    font-size: 16px;
+    margin-bottom: 5px;
+    max-width: 80%;
+}
+.date_message{
+    font-size: 14px;
+    color: #9ca1b2;
+}
+
+#textarea{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    resize: none;
+    width: 90%;
+    color: #ffffff;
+    background: #3d4055;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/* USER */
+#user_box{
+    background: #2b2d3c;
+    padding: 20px;
+    color: #9ca1b2;
+    text-align: center;
+}
+#user_box > div{
+    width: 280px;
+}
+.contact_img{
+    margin: 0 auto;
+    display: block;
+    width: 110px;
+    height: 110px;
+    position: relative;
+}
+.contact_img img{
+    width: 100%;
+}
+#user_box h2{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.info_contact{
+    margin-bottom: 20px;
+}
+.info_box{
+    margin-bottom: 20px;
+}
+.info_box h3{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.info_box i{
+    font-size: 16px;
+    color: white;
+}
+
+.contact_ball{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 23px;
+    height: 23px;
+    background: green;
+    border-radius: 50%;
+    border: 1px solid #2b2d3c;
+}

@@ -1,0 +1,22 @@
+.filter_panel{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #237fcb;
+    padding: 17px;
+}
+.filter_panel a{color: #2b2d3c}
+.filter_panel i{color: #ffffff}
+.filter_select {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-left: 40px;
+    width: 140px;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+.filter_select option{
+    background: #237fcb;
+}

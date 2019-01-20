@@ -1,0 +1,26 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+h1,h2,h3,h4,h5,h6,p,i,b,li,a{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+body{
+    width: 100%;
+    background: #2b2d3c;
+}
+main{
+    display: block;
+    width: 100%;
+    padding-left: 70px;
+}
+.text_overflow{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.white_text{color: #ffffff}
