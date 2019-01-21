@@ -1,8 +1,5 @@
 header,nav{
-    background: #2f3242;
-    -webkit-box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
-    -moz-box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
-    box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
+    background: #1a1f25;
 }
 /* Header */
 .align_center, .header_panel > div{
@@ -13,13 +10,12 @@ header{
     padding: 20px 30px;
     justify-content: space-between;
 }
-header h2{
+.header_logo{
     color: #ffffff;
     font-size: 25px;
 }
-.header_logo{
-    display: block;
-    height: auto;
+.header_logo b{
+    color: rgba(255,21,34,0.79);
 }
 .search, .notification, .user_panel{
     cursor: pointer;
@@ -29,6 +25,9 @@ header h2{
 }
 .notification{
     position: relative;
+}
+.icon_header{
+    width: 30px;
 }
 .ball{
     position: absolute;
@@ -42,8 +41,14 @@ header h2{
 }
 .user_panel{ margin-left: 40px }
 .user_icon{
-    width: 40px;
+    width: 45px;
+    padding: 5px;
+    border: 1px solid #2195f2;
+    border-radius: 50%;
     margin-right: 10px;
+}
+.arrow_icon{
+    width: 20px;
 }
 /* Navigation */
 nav{
@@ -52,6 +57,12 @@ nav{
     position: fixed;
     height: 100vh;
 }
-nav a{padding: 20px;}
-nav a:hover{background: #d7d5e2;}
-nav a img{width: 30px;}
+nav a{
+    padding: 20px;
+}
+nav a:hover{
+    background: #d7d5e2;
+}
+nav a img{
+    width: 30px;
+}
