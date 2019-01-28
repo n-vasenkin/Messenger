@@ -13,7 +13,7 @@ export default class Filter extends Component{
     render() {
         return (
             <div className="filter_panel align_center">
-                <a href="#">Messenger</a>
+                <a href="#">Мессенджер</a>
                 <div className="align_center">
                     <i>Filter messages:</i>
                     <div>

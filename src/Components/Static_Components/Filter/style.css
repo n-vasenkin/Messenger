@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: #237fcb;
-    padding: 17px;
+    background: #55AAFF;
+    padding: 17px 17px 20px 17px;
 }
 .filter_panel a{color: #2b2d3c}
 .filter_panel i{color: #ffffff}

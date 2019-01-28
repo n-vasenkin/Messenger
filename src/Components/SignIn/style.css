@@ -9,7 +9,7 @@
     min-height: 250px;
 }
 .form_sign{
-    width: 300px;
+    width: 350px;
 }
 .title_form, .bottom_form{
     display: flex;
@@ -23,7 +23,7 @@
     color: white;
 }
 .swap_sign{
-    font-size: 14px;
+    font-size: 16px;
     border: 0.5px solid #7f8084;
     border-radius: 5px;
     padding: 5px 10px;
@@ -32,7 +32,7 @@
 .swap_sign:hover{
     color: #fff;
 }
-/* INPUT BOX */
+/**** INPUT BOX ****/
 .sign_input{
     display: flex;
     flex-direction: column;
@@ -60,13 +60,14 @@
     border: 0;
     border-left: 1px solid #7f8084;
     background: #1a1f25;
-    padding: 0 5px 0 10px;
+    padding: 0 7px 0 10px;
+    font-size: 16px;
     color: #e6b333;
 }
 .input_box input:focus .input_box{
     border: 1px solid #ffffff;
 }
-/* BTN */
+/**** BTN ****/
 .sign_btn{
     border: 0;
     border-radius: 5px;
@@ -76,16 +77,16 @@
     height: 35px;
     cursor: pointer;
 }
-/* bottom_form */
+/**** Bottom_Form ****/
 .bottom_form{
     margin-top: 10px;
 }
 .bottom_form label{
-    font-size: 14px;
+    font-size: 16px;
 }
 .restore_password{
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .styled_checkbox {

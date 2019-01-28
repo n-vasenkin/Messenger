@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './style.css';
 
 /** Module **/
 
@@ -9,9 +10,10 @@ import React, {Component} from 'react';
 /** Store **/
 
 export default class Test extends Component {
-    render(){
-        return(
-            <h1>ВТОРАЯ СТРАНИЦА!</h1>
-        )
+
+    render() {
+        return (
+            <h1>123</h1>
+        );
     }
 }

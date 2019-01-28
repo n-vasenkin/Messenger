@@ -32,11 +32,11 @@ const Main = observer (class extends Component {
         return(
             <main>
                 <Filter/>
-                <article className="container_messenger">
-                    <section id="contact_list">
+                <article className="content">
+                    <section className="contact_list">
                         <ContactList arrayContact={contactList}/>
                     </section>
-                    <section id="chat">
+                    <section className="chat">
                         <ol className="chat_list">
                             <li className="row_message contact_message">
                                 <div>

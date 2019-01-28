@@ -1,19 +1,8 @@
-.container_messenger{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 155px 0 0 70px;
-    height: 100vh;
-    display: flex;
-    z-index: -2;
-}
-
 /* MESSAGE list*/
-#contact_list{
+.contact_list{
     width: 33%;
     min-width: 400px;
-    background: #2b2d3c;
+    background: #081018;
     overflow-y: scroll;
     position: relative;
 }
@@ -24,12 +13,14 @@
     position: relative;
     bottom: 0;
 }
-#contact_list li{
+.contact_list li{
     cursor: pointer;
     border-bottom: 1px solid #9ca1b2;
 }
-#contact_list li:last-child{border-bottom: 0}
-#contact_list li:hover{
+.contact_list li:last-child{
+    border-bottom: 0;
+}
+.contact_list li:hover{
     background: #2e3140;
 }
 .my_contact{
@@ -56,11 +47,10 @@
     margin-left: auto;
 }
 
-
-/* CHAT */
-#chat{
+/****** CHAT *****/
+.chat{
     width: 67%;
-    background: #2f3242;
+    background: #060606;
     padding: 20px 15px;
     position: relative;
 }
@@ -86,7 +76,6 @@
     font-size: 14px;
     color: #9ca1b2;
 }
-
 #textarea{
     position: absolute;
     bottom: 10px;
@@ -99,10 +88,9 @@
     padding: 10px 20px;
     font-size: 20px;
 }
-
-/* USER */
+/*** USER ****/
 #user_box{
-    background: #2b2d3c;
+    background: #081018;
     padding: 20px;
     color: #9ca1b2;
     text-align: center;

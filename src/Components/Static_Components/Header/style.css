@@ -1,5 +1,6 @@
 header,nav{
-    background: #1a1f25;
+    background: #060606;
+    position: fixed;
 }
 /* Header */
 .align_center, .header_panel > div{
@@ -7,7 +8,8 @@ header,nav{
     align-items: center;
 }
 header{
-    padding: 20px 30px;
+    width: 100%;
+    padding: 15px 20px;
     justify-content: space-between;
 }
 .header_logo{
@@ -27,7 +29,7 @@ header{
     position: relative;
 }
 .icon_header{
-    width: 30px;
+    width: 25px;
 }
 .ball{
     position: absolute;
@@ -39,29 +41,29 @@ header{
     background: #2196f3;
     border: 1px solid #2b2d3c;
 }
-.user_panel{ margin-left: 40px }
+.user_panel{ margin-left: 20px }
 .user_icon{
-    width: 45px;
-    padding: 5px;
+    width: 35px;
+    padding: 2px;
     border: 1px solid #2195f2;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .arrow_icon{
     width: 20px;
 }
 /* Navigation */
 nav{
+    top: 67px;
     display: flex;
     flex-direction: column;
-    position: fixed;
     height: 100vh;
 }
 nav a{
     padding: 20px;
 }
 nav a:hover{
-    background: #d7d5e2;
+    background: #55AAFF;
 }
 nav a img{
     width: 30px;
