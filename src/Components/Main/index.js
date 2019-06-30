@@ -12,8 +12,7 @@ import ContactImg from '../../Static/img/main/contact_img.png';
 import FriendImg from '../../Static/img/main/friend_ava.png';
 
 /** Store **/
-import {observer} from  'mobx-react';
-import mainStore from '../../Lib/Store/mainStore';
+
 
 const contactList = [
     {id: 0,name: "Nikolay", surname: "Petrov", lastMessage: "Hello!", dataMessage: "25 April"},
@@ -22,10 +21,10 @@ const contactList = [
     {id: 3,name: "Sten", surname: "Ivanov", lastMessage: "Price: 24$!", dataMessage: "6 December"},
 ];
 
-const Main = observer (class extends Component {
+const Main = class extends Component {
 
     componentWillMount() {
-        mainStore.changeOpenPage("main");
+        // mainStore.changeOpenPage("main");
     }
 
     render(){
@@ -87,6 +86,6 @@ const Main = observer (class extends Component {
             </main>
         )
     }
-});
+};
 
 export default Main;

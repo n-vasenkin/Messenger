@@ -1,12 +1,9 @@
 .table_content{
     overflow-y: scroll;
     padding: 163px 20px 0 90px;
-
 }
-.table_progress{
+.task_table{
     width: 100%;
-    padding: 23px 35px;
-    position: relative;
 }
 .position_all{
     width: 100%;

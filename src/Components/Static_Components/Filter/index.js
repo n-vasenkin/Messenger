@@ -9,11 +9,12 @@ import './style.css';
 
 /** Store **/
 
+
 export default class Filter extends Component{
     render() {
         return (
             <div className="filter_panel align_center">
-                <a href="#">Мессенджер</a>
+                <b>{"a"}</b>
                 <div className="align_center">
                     <i>Filter messages:</i>
                     <div>

@@ -34,7 +34,9 @@ const Header = observer (class extends Component {
         return (
             <div>
                 <header className="align_center">
-                    <h2 className="header_logo">Vasen<b>King</b></h2>
+                    <a href="#/" className="header_logo">
+                        Vasen<b>King</b>
+                    </a>
                     <div className="header_panel align_center">
                         <div>
                             <img src={SearchImg} alt="search" className="search icon_header"/>

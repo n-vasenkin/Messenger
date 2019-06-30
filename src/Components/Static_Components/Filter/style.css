@@ -3,9 +3,10 @@
     justify-content: space-between;
     width: 100%;
     background: #55AAFF;
-    padding: 17px 17px 20px 17px;
+    padding: 0 17px;
+    height: 72px;
 }
-.filter_panel a{color: #2b2d3c}
+.filter_panel b{color: #2b2d3c}
 .filter_panel i{color: #ffffff}
 .filter_select {
     border-radius: 20px;

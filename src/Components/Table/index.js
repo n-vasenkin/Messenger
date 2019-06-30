@@ -8,8 +8,8 @@ import './style.css'
 import Filter from '../Static_Components/Filter';
 
 /** Store **/
-import {observer} from 'mobx-react';
-import mainStore from '../../Lib/Store/mainStore';
+// import {observer} from 'mobx-react';
+// import mainStore from '../../Lib/Store/mainStore';
 
 /** Drag and Drop **/
 const reorder = (list, startIndex, endIndex) => {
@@ -26,7 +26,7 @@ const getItemStyle = (isDragging, draggableStyle) => ({
     ...draggableStyle,
 });
 
-const Table = observer (class extends Component {
+const Table = class extends Component {
 
     constructor(props) {
         super(props);
@@ -47,7 +47,7 @@ const Table = observer (class extends Component {
     }
 
     componentWillMount() {
-        mainStore.changeOpenPage("table");
+        // mainStore.changeOpenPage("table");
     }
 
     render() {
@@ -55,7 +55,7 @@ const Table = observer (class extends Component {
             <main>
                 <Filter/>
                 <div className="content table_content">
-                    <table className="table_progress">
+                    <section className="task_table">
                         <DragDropContext onDragEnd={this.onDragEnd}>
                             <Droppable droppableId="droppable">
                                 {(provided) => (
@@ -82,12 +82,12 @@ const Table = observer (class extends Component {
                                 )}
                             </Droppable>
                         </DragDropContext>
-                    </table>
+                    </section>
                 </div>
             </main>
         )
     }
-});
+};
 
 export default Table;
 

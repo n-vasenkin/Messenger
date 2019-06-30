@@ -1,0 +1,5 @@
+const MAIN = {
+    CHANGE_CURRENT_PAGE: "CHANGE_CURRENT_PAGE" ,
+};
+
+export {MAIN};

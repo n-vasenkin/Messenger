@@ -6,13 +6,11 @@ import UserImg from '../../Static/img/sign_in/user.svg';
 import PasswordImg from '../../Static/img/sign_in/password.svg';
 
 /** Store **/
-import {observer} from 'mobx-react';
-import mainStore from '../../Lib/Store/mainStore';
 
-const SignIn = observer (class extends Component {
+const SignIn = class extends Component {
 
     componentWillMount() {
-        mainStore.changeOpenPage('sign_in');
+        // mainStore.changeOpenPage('sign_in');
     }
 
     render(){
@@ -53,6 +51,6 @@ const SignIn = observer (class extends Component {
 
         )
     }
-});
+};
 
 export default SignIn;

@@ -8,11 +8,13 @@ header,nav{
     align-items: center;
 }
 header{
+    height: 68px;
     width: 100%;
     padding: 15px 20px;
     justify-content: space-between;
 }
 .header_logo{
+    cursor: pointer;
     color: #ffffff;
     font-size: 25px;
 }
@@ -54,13 +56,14 @@ header{
 }
 /* Navigation */
 nav{
-    top: 67px;
+    top: 68px;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 nav a{
     padding: 20px;
+    height: 72px;
 }
 nav a:hover{
     background: #55AAFF;
